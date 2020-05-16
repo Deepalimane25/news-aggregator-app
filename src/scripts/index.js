@@ -15,7 +15,7 @@ else
 }
 
 //Api-Key//
-const apikey="fff5a9d4715d4d9aaba7c02efa6ca5cf";
+const apikey="339b58f0aa7c460fa259944a0681031f";
 var article_area=document.getElementById("news-articles");
 //Function to have formatted NEWS//
 function getNews(news){
