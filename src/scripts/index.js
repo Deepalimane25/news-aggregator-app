@@ -1,21 +1,5 @@
-// Lite Mode/Dark Mode Toggle Function//
-document.querySelector("#toggle_action").addEventListener('change',toggle_func)
-
-function toggle_func(e){
-  if (e.target.checked)
-   {
-    document.documentElement.setAttribute('data-theme', 'lite');
-    document.querySelector(".toggletxt").innerHTML="Toggle to Dark Mode";
-    }
-else
-   {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    document.querySelector(".toggletxt").innerHTML="Toggle to Lite Mode";
-   }   
-}
-
 //Api-Key//
-const apikey="339b58f0aa7c460fa259944a0681031f";
+const apikey="d662ec7e13c6421b83b1d0a7204cd478";
 var article_area=document.getElementById("news-articles");
 //Function to have formatted NEWS//
 function getNews(news){
