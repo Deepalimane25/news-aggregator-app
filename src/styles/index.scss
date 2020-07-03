@@ -1,24 +1,3 @@
-:root {
-    --background-body-color: black;
-    --font-color:white;
-    --border-color:white;
-    --box-color:rgba(39, 35, 35, 0.986);
-    --img-background:black;
-    --box-shadow:wheat;
-    --author-color:rgb(43, 173, 216);
-    --border-line-color:white;
-}
-
-[data-theme="lite"] {
-    --background-body-color: wheat;
-    --font-color:black;
-    --border-color:black;
-    --box-color:rgb(31, 247, 157);
-    --img-background:wheat;
-    --box-shadow:rgb(31, 247, 157);
-    --author-color:black;
-  }
-
 body{
     background-color: var(--background-body-color);
   }
@@ -92,7 +71,7 @@ body{
       border-radius: 50%;
     }
     /* CSS FOR SEARCH BAR */
-    .search-bar{
+    .search-container{
         margin-top: 4%;
         margin-left: 5%;
         margin-bottom: 70px;
@@ -222,7 +201,7 @@ body{
       .switch{
         margin-left: 135px;
       }
-      .search-bar{
+      .search-container{
         width: 580px;
         margin: 0px;
         padding: 0px;
@@ -287,3 +266,4 @@ body{
   }
   }
    
+  
